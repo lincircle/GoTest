@@ -7,8 +7,10 @@
 //
 
 import UIKit
+import CoreBluetooth
+import HBFramework
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, HBCentralDelegate, HBPeripheralDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,7 +21,40 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    //MARK: - HBCentralDelegate
+    
+    func readyToScan() {
+        
+        
+    }
+    
+    func readyForConnect(peripheral: CBPeripheral, willAutoConnect will_auto_connect: Bool) {
+        
+        
+    }
+    
+    func connected(peripheral: CBPeripheral) {
+        
+        
+    }
+    
+    func scanningTimeOut(peripherals: Set<String>) {
+        
+        
+    }
 
+    //MARK: - HBPeripheralDelegate
+    
+    func readyForCommunicate(peripheral: HBPeripheral) {
+        
+        
+    }
+    
+    func receive(peripheral: HBPeripheral, data: Data?, fromCharacteristic characteristic: CBCharacteristic) {
+        
+        
+    }
 
 }
 
