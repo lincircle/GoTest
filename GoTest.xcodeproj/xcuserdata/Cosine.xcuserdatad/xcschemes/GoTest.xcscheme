@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1DDA0DB91D780BD000506A9E"
-               BuildableName = "HBFramework.framework"
-               BlueprintName = "HBFramework"
-               ReferencedContainer = "container:HBFramework.xcodeproj">
+               BlueprintIdentifier = "7C8A1D781E61CB5B004ED751"
+               BuildableName = "GoTest.app"
+               BlueprintName = "GoTest"
+               ReferencedContainer = "container:GoTest.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7C8A1D8C1E61CB5B004ED751"
+               BuildableName = "GoTestTests.xctest"
+               BlueprintName = "GoTestTests"
+               ReferencedContainer = "container:GoTest.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7C8A1D971E61CB5C004ED751"
+               BuildableName = "GoTestUITests.xctest"
+               BlueprintName = "GoTestUITests"
+               ReferencedContainer = "container:GoTest.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "7C8A1D781E61CB5B004ED751"
+            BuildableName = "GoTest.app"
+            BlueprintName = "GoTest"
+            ReferencedContainer = "container:GoTest.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -42,15 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1DDA0DB91D780BD000506A9E"
-            BuildableName = "HBFramework.framework"
-            BlueprintName = "HBFramework"
-            ReferencedContainer = "container:HBFramework.xcodeproj">
+            BlueprintIdentifier = "7C8A1D781E61CB5B004ED751"
+            BuildableName = "GoTest.app"
+            BlueprintName = "GoTest"
+            ReferencedContainer = "container:GoTest.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -60,15 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1DDA0DB91D780BD000506A9E"
-            BuildableName = "HBFramework.framework"
-            BlueprintName = "HBFramework"
-            ReferencedContainer = "container:HBFramework.xcodeproj">
+            BlueprintIdentifier = "7C8A1D781E61CB5B004ED751"
+            BuildableName = "GoTest.app"
+            BlueprintName = "GoTest"
+            ReferencedContainer = "container:GoTest.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

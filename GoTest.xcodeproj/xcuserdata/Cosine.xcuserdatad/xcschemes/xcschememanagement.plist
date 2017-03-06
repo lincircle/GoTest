@@ -4,15 +4,25 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>HBFramework.xcscheme_^#shared#^_</key>
+		<key>GoTest.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1DDA0DB91D780BD000506A9E</key>
+		<key>7C8A1D781E61CB5B004ED751</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7C8A1D8C1E61CB5B004ED751</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7C8A1D971E61CB5C004ED751</key>
 		<dict>
 			<key>primary</key>
 			<true/>

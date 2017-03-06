@@ -97,12 +97,10 @@ open class HBPeripheral: NSObject, CBPeripheralDelegate {
             
             }
             
-            _peripheral.writeValue(data.subdata(in: Range(uncheckedBounds: (lower, upper))), for: characteristic, type: .withResponse)
+            _peripheral.writeValue(data.subdata(in: Range(uncheckedBounds: (lower, upper))), for: characteristic, type: .withoutResponse)
         
         }
         
-        
-    
     }
     
     public func discoverAllServices() {
@@ -308,6 +306,18 @@ open class HBPeripheral: NSObject, CBPeripheralDelegate {
             
         }
         
+    }
+    
+    public func peripheral(_ peripheral: CBPeripheral, didUpdateNotificationStateFor characteristic: CBCharacteristic, error: Error?){
+    
+        print("didUpdateNotificationStateFor characteristic \(error)")
+        
+    }
+    
+    public func peripheral(_ peripheral: CBPeripheral, didWriteValueFor characteristic: CBCharacteristic, error: Error?) {
+    
+        print("didWriteValueFor characteristic \(characteristic.uuid) \(error)")
+    
     }
     
     private func _finishDiscover(peripheral: CBPeripheral) {
