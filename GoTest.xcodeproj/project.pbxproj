@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		7C1EBACF1E62D48900DD518D /* HBFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C1EBACE1E62D41400DD518D /* HBFramework.framework */; };
 		7C1EBAD01E62D48900DD518D /* HBFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7C1EBACE1E62D41400DD518D /* HBFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7C1EBAD51E62D63600DD518D /* Bluno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1EBAD41E62D63600DD518D /* Bluno.swift */; };
 		7C8A1D7D1E61CB5B004ED751 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8A1D7C1E61CB5B004ED751 /* AppDelegate.swift */; };
 		7C8A1D7F1E61CB5B004ED751 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8A1D7E1E61CB5B004ED751 /* ViewController.swift */; };
 		7C8A1D821E61CB5B004ED751 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C8A1D801E61CB5B004ED751 /* Main.storyboard */; };
@@ -66,7 +65,6 @@
 
 /* Begin PBXFileReference section */
 		7C1EBAC91E62D41300DD518D /* HBFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = HBFramework.xcodeproj; path = GoTest/Carthage/Checkouts/HBFramework/HBFramework.xcodeproj; sourceTree = "<group>"; };
-		7C1EBAD41E62D63600DD518D /* Bluno.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bluno.swift; sourceTree = "<group>"; };
 		7C8A1D791E61CB5B004ED751 /* GoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C8A1D7C1E61CB5B004ED751 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C8A1D7E1E61CB5B004ED751 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -146,7 +144,6 @@
 				7C8A1D831E61CB5B004ED751 /* Assets.xcassets */,
 				7C8A1D851E61CB5B004ED751 /* LaunchScreen.storyboard */,
 				7C8A1D881E61CB5B004ED751 /* Info.plist */,
-				7C1EBAD41E62D63600DD518D /* Bluno.swift */,
 			);
 			path = GoTest;
 			sourceTree = "<group>";
@@ -324,7 +321,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C1EBAD51E62D63600DD518D /* Bluno.swift in Sources */,
 				7C8A1D7F1E61CB5B004ED751 /* ViewController.swift in Sources */,
 				7C8A1D7D1E61CB5B004ED751 /* AppDelegate.swift in Sources */,
 			);
