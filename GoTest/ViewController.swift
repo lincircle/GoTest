@@ -14,7 +14,7 @@ class ViewController: UIViewController, HBCentralDelegate, HBPeripheralDelegate 
     
     @IBAction func go(_ sender: UIButton) {
         
-        if _is_communicating {
+        if _can_communicate {
         
             _write_data = "1"
         
@@ -26,7 +26,7 @@ class ViewController: UIViewController, HBCentralDelegate, HBPeripheralDelegate 
     
     @IBAction func back(_ sender: UIButton) {
         
-        if _is_communicating {
+        if _can_communicate {
             
             _write_data = "2"
             
@@ -38,7 +38,7 @@ class ViewController: UIViewController, HBCentralDelegate, HBPeripheralDelegate 
     
     @IBAction func right(_ sender: UIButton) {
         
-        if _is_communicating {
+        if _can_communicate {
             
             _write_data = "3"
             
@@ -50,7 +50,7 @@ class ViewController: UIViewController, HBCentralDelegate, HBPeripheralDelegate 
     
     @IBAction func left(_ sender: UIButton) {
         
-        if _is_communicating {
+        if _can_communicate {
             
             _write_data = "4"
             
@@ -68,7 +68,7 @@ class ViewController: UIViewController, HBCentralDelegate, HBPeripheralDelegate 
     
     private var _write_data: String?
     
-    private var _is_communicating: Bool = false
+    private var _can_communicate: Bool = false
     
     //start bluetooth connect
     
@@ -142,7 +142,7 @@ class ViewController: UIViewController, HBCentralDelegate, HBPeripheralDelegate 
     
     func readyForCommunicate(peripheral: HBPeripheral) {
         
-        _is_communicating = true
+        _can_communicate = true
         
         print("readyForCommunicate")
         
@@ -150,7 +150,7 @@ class ViewController: UIViewController, HBCentralDelegate, HBPeripheralDelegate 
     
     func receive(peripheral: HBPeripheral, data: Data?, fromCharacteristic characteristic: CBCharacteristic) {
         
-        print(data)
+        
         
     }
 
